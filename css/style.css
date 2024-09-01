@@ -1,0 +1,212 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header{
+        width: 100%;
+        height: 90px;
+        display:table;
+    }
+    .navbar{
+        margin: 0 auto;
+        padding: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #143444;
+    }
+    .navbar-brand{
+        width: 80px;
+        height: 80px;
+        border-radius: 100px;
+        background-color: #143444;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner img{
+        width: 100%;
+        height: 500px;
+        opacity: 0.9;
+        filter: brightness(0.80);
+        object-fit: cover;
+    }
+    
+    .carousel-caption{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top:40%;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100px;
+    }
+    .colored-divider{
+        border: none;
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
+    .sobre{
+        width: 100%;
+        padding: 10px;
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-attachment: fixed;
+        background-image: url('https://www.colorhexa.com/657888.png');
+    }
+    .sobre h2{
+        
+        color: #fff;
+        background: rgba(0, 0, 0, 0.5);
+        text-align: justify;
+        display: flex;
+    }
+    .sobre strong{
+        width: 100%;
+        min-height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        margin-top: 70px;
+        margin-left: 100px;
+    }
+    .sobre iframe{
+       text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left : 100px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    footer{
+        width: 100%;
+        padding: 10px;
+        background-color: #143444;
+        color: #fff;
+        text-align: center;
+        color: gray;
+    }
+    
+/*Resposividade para telas menores */
+@media only screen and (max-width: 1000px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        width: 100%;
+        height: 70px;
+        display: table;
+    }
+
+    .navbar {
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        background-color: #143444;
+        padding: 0 10px; 
+    }
+
+    .navbar-brand {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #143444;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner img {
+        width: 100%;
+        height: auto;
+        opacity: 0.9;
+        filter: brightness(0.80);
+        object-fit: cover;
+    }
+
+    .carousel-caption {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 30%;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        height: auto;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .colored-divider {
+        border: none;
+        border-top: 3px solid #4b1a1a;
+    }
+
+    .sobre {
+        width: 100%;
+        padding: 20px;
+        text-align: justify;
+        background-image: url('https://www.colorhexa.com/657888.png');
+        background-attachment: fixed;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre h2 {
+        color: #fff;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .sobre strong {
+        width: 100%;
+        min-height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        margin-top: 50px;
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .sobre iframe {
+        margin: 20px 0; 
+        width: 100%;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    footer {
+        width: 100%;
+        padding: 10px;
+        background-color: #143444;
+        color: #fff;
+        text-align: center;
+    }
+}

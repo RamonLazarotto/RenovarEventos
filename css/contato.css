@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 90px;
+    display:table;
+}
+.navbar{
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #143444;
+}
+.navbar-brand{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    background-color: #143444;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner img{
+    width: 100%;
+    height: 500px;
+    opacity: 0.9;
+    filter: brightness(0.80);
+    object-fit: cover;
+}
+body{
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAADICAMAAAA9W+hXAAAAA1BMVEUpKSmWEkcyAAAANElEQVR4nO3BMQEAAADCoPVP7WsIoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeAN1+AABVhDU2QAAAABJRU5ErkJggg==');
+    overflow-x: hidden;
+}
+.contato{
+    margin-top: 5.4% !important;
+    background-color: #292929;
+    color: #fff;
+    padding: 10xp;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: justify;
+}
+#modalcontato{
+    color: black;
+}
+.icons i{
+    font-size: 3.8rem;
+    padding: 10px;
+    color: white;
+    margin-top: 70px;
+    margin-right: 100px;
+    align-items: center;
+}
+
+.modal{
+    color: black;
+}
+
+footer{
+    width: 100%;
+    padding: 10px;
+    background-color: #143444;
+    color: #fff;
+    text-align: center;
+    color: gray;
+    text-align: center;
+    margin-top: 93px;
+}
+
+/* Responsividade para telas menores que 1000px */
+@media only screen and (max-width: 1000px) {
+    header {
+        height: 70px;
+    }
+
+    .navbar {
+        flex-direction: column; 
+        padding: 10px;
+    }
+
+    .navbar-brand {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+
+    .banner img {
+        height: 300px;
+    }
+
+    .contato {
+        margin-top: 5%;
+        padding: 15px;
+    }
+
+    .icons i {
+        font-size: 2.5rem; 
+        margin: 10px;
+    }
+
+    footer {
+        width: 100%;
+        padding: 10px;
+        background-color: #143444;
+        color: #fff;
+        text-align: center;
+        color: gray;
+    }
+}
+
+/* Responsividade para telas menores que 600px */
+@media only screen and (max-width: 600px) {
+    .navbar {
+        justify-content: center; 
+    }
+
+    .banner img {
+        height: 200px;
+    }
+
+    .contato {
+        margin-top: 4%;
+        padding: 10px;
+    }
+
+    .icons i {
+        font-size: 2rem;
+        margin: 5px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}

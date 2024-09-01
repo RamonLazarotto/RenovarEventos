@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renovar Eventos</title>
+    <link rel="stylesheet" href="css/servicos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5ae54e19b8.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="imagens/Logo.png">
+</head>
+
+<style type="text/css" href="servicos.css;">
+</style>
+
+<body>
+
+<!--Começo cabeçalho-->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+<div class="container-fluid">
+<a class="navbar-brand" href="index.html"><img src="imagens/Logo.png" width="80"></a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="servicos.html">SERVIÇOS</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="avaliacoes.html">AVALIAÇÕES</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="empregados.html">FUNCIONÁRIOS</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="contato.html">CONTATO</a>
+    </li>
+  </div>
+  </ul>
+</div>
+</nav>
+</header>
+<!--Fim Cabeçalho-->
+
+<div class="row justify-content-around servicos">
+    <div class="col-sm-3 cards">
+      <div class="card" style="width: 18rem;">
+        <img src="imagens/Florista.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Decoração</h5>
+          <p class="card-text">Serviços de Decoração para seu evento</p>
+          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modaldecoracao" >Acessar</a>
+        </div>
+      </div>
+  </div>
+    <!-- Modal -->
+    <div class="modal fade" id="modaldecoracao" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Decoração</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+          <!-- Iframe -->
+          <iframe width="100%" height="300" src="https://www.youtube.com/embed/iMf40t3itco?&mute=1" frameborder="0" allowfullscreen></iframe>
+            Você escolheu os serviços de Decoração!<br>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#valdec" >Valores</a><br>
+            <a>Clique <a href="https://wa.link/vunzsy" target="_blank">AQUI</a> para entrar em contato com nossa equipe de decoração!</a>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fim Modal -->
+    <!-- Modal Valores -->
+    <div class="modal fade" id="valdec" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Valores Decoração</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            1. Casamentos<br>
+            Decoração básica: R$ 5.000 a R$ 10.000<br>
+            Decoração intermediária: R$ 10.000 a R$ 25.000<br>
+            Decoração de luxo: Acima de R$ 25.000<br><br>
+            2. Festas de 15 anos<br>
+            Decoração básica: R$ 4.000 a R$ 8.000<br>
+            Decoração intermediária: R$ 8.000 a R$ 18.000<br>
+            Decoração de luxo: Acima de R$ 18.000<br><br>
+            3. Eventos corporativos<br>
+            Decoração básica: R$ 3.000 a R$ 8.000<br>
+            Decoração intermediária: R$ 8.000 a R$ 15.000<br>
+            Decoração de luxo: Acima de R$ 15.000<br><br>
+            4. Formaturas<br>
+            Decoração básica: R$ 4.000 a R$ 10.000<br>
+            Decoração intermediária: R$ 10.000 a R$ 20.000<br>
+            Decoração de luxo: Acima de R$ 20.000<br><br>
+            OBS: Para valores mais detalhados, falar com a nossa equipe 
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#modaldecoracao">Voltar</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fim Modal Valores -->
+
+    <div class="col-sm-3">
+    <div class="card" style="width: 18rem;">
+      <img src="imagens/Iluminação.jpeg" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Iluminação</h5>
+        <p class="card-text">Serviços de Iluminação para seu Evento.</p>
+        <a href="#"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modaliluminacao">Acessar</a>
+      </div>
+    </div>
+        <!-- Modal -->
+        <div class="modal fade" id="modaliluminacao" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Iluminação</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <!-- Iframe -->
+                  <iframe width="100%" height="300" src="https://www.youtube.com/embed/w2q5G1I5VNQ?si=W-Ue5VGb-rJoi85i&mute=1" frameborder="0" allowfullscreen></iframe>
+                 Você selecionou os serviços de iluminação<br>
+                 <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#valilu" >Valores</a><br>
+                 <a>Clique <a href="https://wa.link/01vm7d" target="_blank">AQUI</a> para entrar em contato com nossa equipe de Iluminação!</a> 
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> 
+
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+      <!-- Fim Modal -->
+      <!-- Modal Valores -->
+    <div class="modal fade" id="valilu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Valores Iluminação</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            1. Casamentos<br>
+            Iluminação básica: R$ 3.000 a R$ 7.000<br>
+            Iluminação intermediária: R$ 7.000 a R$ 15.000<br>
+            Iluminação de luxo: Acima de R$ 15.000<br><br>
+            2. Festas de 15 anos<br>
+            Iluminação básica: R$ 2.000 a R$ 5.000<br>
+            Iluminação intermediária: R$ 5.000 a R$ 12.000<br>
+            Iluminação de luxo: Acima de R$ 12.000<br><br>
+            4. Eventos corporativos<br>
+            Iluminação básica: R$ 2.500 a R$ 6.000<br>
+            Iluminação intermediária: R$ 6.000 a R$ 12.000<br>
+            Iluminação de luxo: Acima de R$ 12.000<br><br>
+            5. Formaturas<br>
+            Iluminação básica: R$ 3.000 a R$ 7.000<br>
+            Iluminação intermediária: R$ 7.000 a R$ 14.000<br>
+            Iluminação de luxo: Acima de R$ 14.000<br><br>
+            OBS: Para valores mais detalhados, falar com a nossa equipe 
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#modaliluminacao">Voltar</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fim Modal Valores -->
+
+    <div class="col-sm-3">
+    <div class="card" style="width: 18rem;">
+      <img src="imagens/som.png" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Sonorização</h5>
+        <p class="card-text">Serviços de Sonorização para seu evento.</p>
+        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalsonorizacao">Acessar</a>
+      </div>
+    </div>
+            <!-- Modal -->
+            <div class="modal fade" id="modalsonorizacao" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Sonorização</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <iframe width="100%" height="300" src="https://www.youtube.com/embed/gSVCUZfEQoQ?si=2ZDgtbH8mQwdqWom&mute=1" frameborder="0" allowfullscreen></iframe>
+                     Você selecionou os serviços de Sonorização<br>
+                     <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#valsom" >Valores</a><br>
+                     <a>Clique <a href="https://wa.link/nvxze2" target="_blank">AQUI</a> para entrar em contato com nossa equipe de Sonorização!</a> 
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+         </div>
+         <!-- Fim Modal -->
+         <!-- Modal Valores -->
+         <div class="modal fade" id="valsom" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Valores Sonorização</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                1. Casamentos<br>
+                Sonorização Básica: R$ 4.000 a R$ 8.000<br>
+                Sonorização Intermediária: R$ 8.000 a R$ 15.000<br>
+                Sonorização de Luxo: Acima de R$ 15.000<br><br>
+                2. Festas de 15 anos<br>
+                Sonorização Básica: R$ 3.000 a R$ 6.000<br>
+                Sonorização Intermediária: R$ 6.000 a R$ 12.000<br>
+                Sonorização de Luxo: Acima de R$ 12.000<br><br>
+                3. Eventos Corporativos<br>
+                Sonorização Básica: R$ 5.000 a R$ 10.000<br>
+                Sonorização Intermediária: R$ 10.000 a R$ 20.000<br>
+                Sonorização de Luxo: Acima de R$ 20.000<br><br>
+                4. Formaturas<br>
+                Sonorização Básica: R$ 4.500 a R$ 9.000<br>
+                Sonorização Intermediária: R$ 9.000 a R$ 18.000<br>
+                Sonorização de Luxo: Acima de R$ 18.000<br><br>
+                OBS: Para valores mais detalhados, falar com a nossa equipe 
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#modalsonorizacao">Voltar</button>
+    
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fim Modal Valores -->
+
+</div>
+<div class="row justify-content-around servicos2">
+  <div class="col-sm-3">
+    <div class="card" style="width: 18rem;">
+      <img src="imagens/cenario.jpg 
+      " class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Montagem de cenários</h5>
+        <p class="card-text">Serviços de Montagem de Cenários para seu evento</p>
+        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalcenarios">Acessar</a>
+      </div>
+    </div>
+              <!-- Modal -->
+              <div class="modal fade" id="modalcenarios" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Montagem de Cenários</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <iframe width="100%" height="300" src="https://www.youtube.com/embed/TXyNR1gn-lY?&mute=1" frameborder="0" allowfullscreen></iframe>
+                       Você selecionou os serviços de Montagem de Cenários<br>
+                       <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#valcen" >Valores</a><br>
+                       <a>Clique <a href="https://wa.link/55e800" target="_blank">AQUI</a> para entrar em contato com nossa equipe de Montagem de Cenários!</a>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            <!-- Modal -->
+            <!-- Modal Valores -->
+         <div class="modal fade" id="valcen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Valores Montagem de Cenários</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                1. Casamentos<br>
+                Montagem Básica: R$ 5.000 a R$ 12.000<br>
+                Montagem Intermediária: R$ 12.000 a R$ 25.000<br>
+                Montagem de Luxo: Acima de R$ 25.000<br><br>
+                2. Festas de 15 anos<br>
+                Montagem Básica: R$ 4.000 a R$ 8.000<br>
+                Montagem Intermediária: R$ 8.000 a R$ 18.000<br>
+                Montagem de Luxo: Acima de R$ 18.000<br><br>
+                3. Eventos Corporativos<br>
+                Montagem Básica: R$ 6.000 a R$ 15.000<br>
+                Montagem Intermediária: R$ 15.000 a R$ 30.000<br>
+                Montagem de Luxo: Acima de R$ 30.000<br><br>
+                4. Formaturas<br>
+                Montagem Básica: R$ 5.500 a R$ 11.000<br>
+                Montagem Intermediária: R$ 11.000 a R$ 22.000<br>
+                Montagem de Luxo: Acima de R$ 22.000<br><br>
+                OBS: Para valores mais detalhados, falar com a nossa equipe 
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#modalcenarios">Voltar</button>
+    
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fim Modal Valores -->
+
+  <div class="col-sm-3">
+  <div class="card" style="width: 18rem;">
+    <img src="imagens/foto.jpg" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Fotografia</h5>
+      <p class="card-text">Serviços de Fotografia</p>
+      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalfotografia">Acessar</a>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="modalfotografia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Fotografia</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <iframe width="100%" height="300" src="https://www.youtube.com/embed/4bGz4Q_M9ZY?&mute=1" frameborder="0" allowfullscreen></iframe>
+              Você selecionou nosso serviço de Fotografia<br>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#valfot" >Valores</a><br>
+              <a>Clique <a href="https://wa.link/j1wdnl" target="_blank">AQUI</a> para entrar em contato com nossa equipe de Fotógrafos!</a> 
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fim Modal -->
+  <!-- Modal Valores -->
+         <div class="modal fade" id="valfot" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Valores Montagem de Cenários</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                1. Casamentos<br>
+                Fotografia Básica: R$ 3.500 a R$ 7.000<br>
+                Fotografia Intermediária: R$ 7.000 a R$ 15.000<br>
+                Fotografia de Luxo: Acima de R$ 15.000<br><br>
+                2. Festas de 15 anos<br>
+                Fotografia Básica: R$ 2.500 a R$ 5.000<br>
+                Fotografia Intermediária: R$ 5.000 a R$ 10.000<br>
+                Fotografia de Luxo: Acima de R$ 10.000<br><br>
+                3. Eventos Corporativos<br>
+                Fotografia Básica: R$ 4.000 a R$ 8.000<br>
+                Fotografia Intermediária: R$ 8.000 a R$ 16.000<br>
+                Fotografia de Luxo: Acima de R$ 16.000<br><br>
+                4. Formaturas<br>
+                Fotografia Básica: R$ 3.000 a R$ 6.000<br>
+                Fotografia Intermediária: R$ 6.000 a R$ 12.000<br>
+                Fotografia de Luxo: Acima de R$ 12.000<br><br>
+                OBS: Para valores mais detalhados, falar com a nossa equipe 
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#modalfotografia">Voltar</button>
+    
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fim Modal Valores -->
+
+        
+  <div class="col-sm-3">
+  <div class="card" style="width: 18rem;">
+    <img src="imagens/filmagem.jpg" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Filmagem</h5>
+      <p class="card-text">Serviços de Filmagem</p>
+      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalfilmagem">Acessar</a>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="modalfilmagem" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Filmagem</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <iframe width="100%" height="300" src="https://www.youtube.com/embed/KeuYafdfWOo?&mute=1" frameborder="0" allowfullscreen></iframe>
+            Você selecionou o serviço de Filmagem<br>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#valfil" >Valores</a><br>
+            <a>Clique <a href="https://wa.link/rdcuva" target="_blank">AQUI</a> para entrar em contato com nossa equipe de Filmagem!</a> 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          
+       </div>
+      </div>
+    </div>
+    </div>
+    <!-- Fim Modal-->
+        <!-- Modal Valores -->
+         <div class="modal fade" id="valfil" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Valores Montagem de Cenários</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                1. Casamentos<br>
+                Filmagem Básica: R$ 4.000 a R$ 8.000<br>
+                Filmagem Intermediária: R$ 8.000 a R$ 18.000<br>
+                Filmagem de Luxo: Acima de R$ 18.000<br><br>
+                2. Festas de 15 anos<br>
+                Filmagem Básica: R$ 3.000 a R$ 6.000<br>
+                Filmagem Intermediária: R$ 6.000 a R$ 12.000<br>
+                Filmagem de Luxo: Acima de R$ 12.000<br><br>
+                3. Eventos Corporativos<br>
+                Filmagem Básica: R$ 5.000 a R$ 10.000<br>
+                Filmagem Intermediária: R$ 10.000 a R$ 20.000<br>
+                Filmagem de Luxo: Acima de R$ 20.000<br><br>
+                4. Formaturas<br>
+                Filmagem Básica: R$ 4.500 a R$ 9.000<br>
+                Filmagem Intermediária: R$ 9.000 a R$ 18.000<br>
+                Filmagem de Luxo: Acima de R$ 18.000<br><br>
+                OBS: Para valores mais detalhados, falar com a nossa equipe 
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#modalfilmagem">Voltar</button>
+    
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fim Modal Valores -->
+  </div>
+</div>
+</body>
+<footer>
+  &copy; Todos os Direitos Reservados - Ramon Lazarotto
+</footer>
+</html>

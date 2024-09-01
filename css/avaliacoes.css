@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 90px;
+    display:table;
+}
+.navbar{
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #143444;
+}
+.navbar-brand{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    background-color: #143444;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner img{
+    width: 100%;
+    height: 500px;
+    opacity: 0.9;
+    filter: brightness(0.80);
+    object-fit: cover;
+}
+body{
+    background-image: url('https://www.colorhexa.com/657888.png');
+    overflow-x: hidden;
+}
+.avaliacoes{
+    height: 50%;
+    padding: 10px;
+    min-height: 300px;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.cards{
+    height: 400px;
+}
+.avaliacoes2{
+    height: 50%;
+    padding: 10px;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    color: white;
+}
+.avaliacoes p{
+    color: white;
+}
+.avaliacoes2 p{
+    color: white;
+}
+
+footer{
+    width: 100%;
+    padding: 10px;
+    background-color: #143444;
+    color: #fff;
+    text-align: center;
+    color: gray;
+    margin-top: 20px;
+}
+
+/* Responsividade para telas menores que 1000px */
+@media only screen and (max-width: 1000px) {
+    header {
+        height: 70px;
+    }
+
+    .navbar {
+        flex-direction: column; 
+        padding: 10px;
+    }
+
+    .navbar-brand {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+
+    .banner img {
+        height: 300px;
+    }
+
+    .avaliacoes, .avaliacoes2 {
+        padding: 15px;
+        min-height: auto;
+    }
+
+    footer {
+        padding: 15px;
+    }
+}
+
+/* Responsividade para telas menores que 600px */
+@media only screen and (max-width: 600px) {
+
+    .navbar {
+        justify-content: center; 
+    }
+
+    .banner img {
+        height: 200px;
+    }
+
+    .avaliacoes, .avaliacoes2 {
+        padding: 10px;
+        min-height: auto;
+    }
+
+    footer {
+        width: 100%;
+        padding: 10px;
+        background-color: #143444;
+        color: #fff;
+        text-align: center;
+    }
+}

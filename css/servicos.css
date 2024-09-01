@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 90px;
+    display:table;
+}
+.navbar{
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #143444;
+}
+.navbar-brand{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    background-color: #143444;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner img{
+    width: 100%;
+    height: 500px;
+    opacity: 0.9;
+    filter: brightness(0.80);
+    object-fit: cover;
+}
+body{
+    overflow-x: hidden;
+    background-image: url('https://www.colorhexa.com/657888.png');
+}
+
+.modal{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    height: 350px;
+    display: flex;
+    width: 30%;
+}
+.servicos, .servicos2{
+    padding: 20px;
+    align-content: center;
+    text-align: justify;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+footer{
+    width: 100%;
+    padding: 10px;
+    background-color: #143444;
+    color: #fff;
+    text-align: center;
+    color: gray;
+}
+
+/* Responsividade para telas menores */
+@media only screen and (max-width: 1000px) {
+    header {
+        height: 70px;
+    }
+
+    .navbar {
+        flex-direction: column; 
+        padding: 10px;
+    }
+
+    .navbar-brand {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+
+    .banner img {
+        height: 300px;
+    }
+
+    .card {
+        height: auto; 
+        margin: 10px auto;
+    }
+
+    .servicos, .servicos2 {
+        padding: 10px; 
+        font-size: 0.9rem;
+        text-align: center;
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        width: 100%;
+        padding: 10px;
+        background-color: #143444;
+        color: #fff;
+        text-align: center;
+    }
+}
+
+/* Responsividade para telas muito pequenas (smartphones) */
+@media only screen and (max-width: 600px) {
+    .navbar {
+        justify-content: center; 
+    }
+
+    .banner img {
+        height: 200px;
+    }
+
+    .servicos, .servicos2 {
+        padding: 10px;
+        font-size: 0.9rem; 
+    }
+}
